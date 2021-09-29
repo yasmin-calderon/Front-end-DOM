@@ -1,0 +1,101 @@
+input, button {
+    all: unset;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #EFDADA;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #FFFFFF;
+
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    
+    padding: 40px 60px;
+    width: 470px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+.container__title {
+    font-size: 30px;
+    line-height: 35px;
+
+    margin-bottom: 74px;
+}
+
+.container__inputs, .container__inputs--senha {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+
+    width: 350px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.container__inputs__label {
+    margin-bottom: 12px;
+}
+
+.container__inputs__input {
+    border: 1px solid #4E4E4E;
+    box-sizing: border-box;
+    border-radius: 8px;
+
+    height: 46px;
+
+    margin-bottom: 20px;
+    padding: 0px 15px;
+}
+
+.container__inputs--senha {
+    position: relative;
+}
+
+.container__inputs__imagem {
+    position:absolute;
+    top: 15px;
+    bottom: 15px;
+    left: 315px;
+
+    width: 20px;
+    height: 16px;
+
+    cursor: pointer;
+}
+
+.container__button {
+    background-color: #13A1F0;
+    color: #FFFFFF;
+
+    border-radius: 8px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 40px;
+
+    width: 111px;
+    height: 42px;
+
+    cursor: pointer;
+}
